@@ -102,6 +102,7 @@
             this.boxusername.Name = "boxusername";
             this.boxusername.Size = new System.Drawing.Size(190, 26);
             this.boxusername.TabIndex = 4;
+            this.boxusername.TextChanged += new System.EventHandler(this.boxusername_TextChanged);
             // 
             // boxpassword
             // 
